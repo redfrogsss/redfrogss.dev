@@ -11,7 +11,7 @@ export default function DanceCanvas() {
             style={{
                 backgroundColor: '#0f172a',
                 width: '100%',
-                height: '100%',
+                height: '100vh',
             }}
         >
             <ambientLight intensity={1.25} />

@@ -10,9 +10,13 @@ function App() {
           <DanceCanvas />
         </div>
         <div>
-          <h1 className="text-3xl font-bold underline">
-            Hello world!
-          </h1>
+          <p class="py-64">
+            <center>
+              <h1 className="text-5xl font-bold font-mono">
+                Hello world!
+              </h1>
+            </center>
+          </p>
         </div>
       </div>
     </div>
