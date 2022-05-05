@@ -1,7 +1,5 @@
-import React, { Suspense } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
-import Dance from "./components/Dance";
+import React from 'react';
+import DanceCanvas from './components/DanceCanvas';
 
 function App() {
   return (
@@ -9,22 +7,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">
         Hello world!
       </h1>
-      <Canvas
-        camera={{ position: [2, 0, 12.25], fov: 15 }}
-        style={{
-          backgroundColor: '#111a21',
-          width: '100vw',
-          height: '100vh',
-        }}
-      >
-        <ambientLight intensity={1.25} />
-        <ambientLight intensity={0.1} />
-        <directionalLight intensity={0.4} />
-        <Suspense fallback={null}>
-          <Dance position={[0.025, -0.9, 0]} />
-        </Suspense>
-        <OrbitControls />
-      </Canvas>
+      <DanceCanvas />
     </div>
   );
 }
