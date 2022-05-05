@@ -4,6 +4,7 @@ import { OrbitControls } from '@react-three/drei';
 import Dance from "./Dance";
 
 export default function DanceCanvas() {
+
     return (
         <Canvas
             camera={{ position: [2, 0, 12.25], fov: 15 }}
@@ -19,7 +20,7 @@ export default function DanceCanvas() {
             <Suspense fallback={null}>
                 <Dance position={[0.025, -0.9, 0]} />
             </Suspense>
-            <OrbitControls />
+            {/* <OrbitControls /> */}
         </Canvas>
     );
 }
