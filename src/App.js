@@ -14,7 +14,10 @@ function App() {
             <h1 className="text-5xl font-bold font-mono">
               Hello world!
             </h1>
-            <span class="inline-grid grid-cols-3 gap-4 py-16">
+            <p className="text-lg font-mono pt-8">
+              Hello Worlds
+            </p>
+            <span class="inline-grid grid-cols-3 gap-4 py-8">
               <span>
                 <SocialIcon url="https://github.com/redfrogsss" bgColor='#f3f4f6' />
               </span>
