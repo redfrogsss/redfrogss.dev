@@ -9,9 +9,9 @@ export default function DanceCanvas() {
         <Canvas
             camera={{ position: [2, 0, 12.25], fov: 15 }}
             style={{
-                backgroundColor: '#111a21',
-                width: '100vw',
-                height: '100vh',
+                backgroundColor: '#0f172a',
+                width: '100%',
+                height: '100%',
             }}
         >
             <ambientLight intensity={1.25} />
