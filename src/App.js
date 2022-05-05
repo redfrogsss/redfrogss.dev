@@ -6,7 +6,7 @@ import FadeIn from 'react-fade-in';
 function App() {
   return (
     <div className="App">
-      <div class="grid grid-cols-2 px-64 content-center">
+      <div class="grid grid-cols-2 px-64 content-center h-[100vh]">
         <div class="flex justify-center items-center h-screen">
           <DanceCanvas />
         </div>
@@ -33,6 +33,9 @@ function App() {
             </center>
           </FadeIn>
         </div>
+      </div>
+      <div class="grid grid-cols-2 px-64 content-center h-[100vh]">
+        <h1>Hello Worlds</h1>
       </div>
     </div>
   );
