@@ -6,7 +6,9 @@ import Dance from "./Dance";
 function App() {
   return (
     <div className="App">
-      <h2>Hello World</h2>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
       <Canvas
         camera={{ position: [2, 0, 12.25], fov: 15 }}
         style={{
