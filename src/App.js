@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import Dance from "./Dance";
+import Dance from "./components/Dance";
 
 function App() {
   return (
