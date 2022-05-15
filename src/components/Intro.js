@@ -12,10 +12,10 @@ export default function Intro() {
                 <FadeIn>
                     <center>
                         <h1 className="text-5xl font-bold font-mono">
-                            Hello world!
+                            Jacky FAN
                         </h1>
                         <p className="text-lg font-mono pt-8">
-                            Hello Worlds
+                            A PolyU student studying Computing.
                         </p>
                         <span class="inline-grid grid-cols-3 gap-4 py-8">
                             <span>
