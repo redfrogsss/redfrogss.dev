@@ -1,21 +1,21 @@
-export default function SelfRemind() {
+export default function RedStream() {
     return (
         <>
             <div class="grid grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                 <div class="pl-2">
-                    <h1 className="text-xl font-bold font-mono">SelfRemind</h1>
+                    <h1 className="text-xl font-bold font-mono">RedStream</h1>
                     <p>
-                        <text className="text-bg font-mono pt-4 ">
-                            a selfhosted To-do List Manager built with Next.js, Chakra-UI and MySQL.
+                        <text className="text-bg font-mono pt-4 pr-4">
+                            a Movie Streaming Website built with ReactJS, MaterialUI, ExpressJS, Firebase and FFmpeg.
                             <ul class="list-disc pl-8">
                                 <li>
-                                    Easy to Use
+                                    Movie Streaming
                                 </li>
                                 <li>
-                                    Beautiful Interface
+                                    Subscription Membership
                                 </li>
                                 <li>
-                                    Selfhosted
+                                    Comment Section
                                 </li>
                             </ul>
                         </text>
@@ -23,7 +23,7 @@ export default function SelfRemind() {
                     <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4">Github</button>
                 </div>
                 <div>
-                    <img class="object-cover w-[100%]" src="/img/selfremind.png"></img>
+                    <img class="object-cover w-[100%]" src="/img/redstream.png"></img>
                 </div>
             </div>
         </>
