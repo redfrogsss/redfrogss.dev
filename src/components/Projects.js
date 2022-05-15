@@ -1,5 +1,6 @@
 import RedStream from "./RedStream";
 import SelfRemind from "./SelfRemind";
+import AttendanceSystem from "./AttendanceSystem";
 
 export default function Projects() {
     return (
@@ -10,6 +11,9 @@ export default function Projects() {
             </div>
             <div class="py-4">
                 <RedStream />
+            </div>
+            <div class="py-4">
+                <AttendanceSystem />
             </div>
         </div>
     );
