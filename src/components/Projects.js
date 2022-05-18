@@ -4,7 +4,7 @@ import AttendanceSystem from "./AttendanceSystem";
 
 export default function Projects() {
     return (
-        <div className="px-16 md:px-32 lg:px-64 content-center">
+        <div className="px-8 md:px-16 lg:px-32 content-center">
             <h1 className="text-5xl font-bold font-mono py-16">Projects</h1>
             <div class="pb-4">
                 <SelfRemind />
