@@ -23,7 +23,7 @@ export default function AttendanceSystem() {
         <>
             <div class="grid grid-cols-1 lg:grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                 <div class="flex lg:hidden">
-                    <img class="object-cover w-[100%]" src={SansPic}></img>
+                    <img class="object-cover w-[100%]" src={SansPic} alt="Screenshot of Student Attendance Management System"></img>
                 </div>
                 <div class="pl-2">
                     <h1 className="text-xl font-bold">Students Attendance System</h1>
@@ -47,7 +47,7 @@ export default function AttendanceSystem() {
                     <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Java")}}>Github for Java version</button>
                 </div>
                 <div class="hidden lg:flex">
-                    <img class="object-cover w-[100%]" src={SansPic}></img>
+                    <img class="object-cover w-[100%]" src={SansPic} alt="Screenshot of Student Attendance Management System"></img>
                 </div>
             </div>
         </>
