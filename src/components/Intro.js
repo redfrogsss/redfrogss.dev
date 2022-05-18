@@ -4,8 +4,8 @@ import FadeIn from 'react-fade-in';
 
 export default function Intro() {
     return (
-        <div class="grid grid-cols-2 px-64 content-center h-[100vh]">
-            <div class="flex justify-center items-center h-screen">
+        <div class="grid grid-cols-1 lg:grid-cols-2 px-64 content-center h-[100vh]">
+            <div class="hidden lg:flex justify-center items-center h-screen">
                 <DanceCanvas />
             </div>
             <div class="flex justify-center items-center h-screen">
