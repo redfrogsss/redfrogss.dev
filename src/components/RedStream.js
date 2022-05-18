@@ -1,3 +1,5 @@
+import RedstreamPic from "../img/redstream.png"
+
 export default function RedStream() {
     return (
         <>
@@ -23,7 +25,7 @@ export default function RedStream() {
                     <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4">Github</button>
                 </div>
                 <div>
-                    <img class="object-cover w-[100%]" src="/img/redstream.png"></img>
+                    <img class="object-cover w-[100%]" src={RedstreamPic}></img>
                 </div>
             </div>
         </>
