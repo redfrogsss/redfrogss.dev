@@ -3,9 +3,9 @@ export default function AttendanceSystem() {
         <>
             <div class="grid grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                 <div class="pl-2">
-                    <h1 className="text-xl font-bold font-mono">Students Attendance System</h1>
+                    <h1 className="text-xl font-bold">Students Attendance System</h1>
                     <p>
-                        <text className="text-bg font-mono pt-4 pr-4">
+                        <text className="text-lg pt-4 pr-4">
                         a Student Attendance Management System built with ExpressJS / Java GlassFish, Bootstrap, JQuery and MySQL.
                             <ul class="list-disc pl-8">
                                 <li>

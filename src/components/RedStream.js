@@ -3,9 +3,9 @@ export default function RedStream() {
         <>
             <div class="grid grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                 <div class="pl-2">
-                    <h1 className="text-xl font-bold font-mono">RedStream</h1>
+                    <h1 className="text-xl font-bold">RedStream</h1>
                     <p>
-                        <text className="text-bg font-mono pt-4 pr-4">
+                        <text className="text-lg pt-4 pr-4">
                             a Movie Streaming Website built with ReactJS, MaterialUI, ExpressJS, Firebase and FFmpeg.
                             <ul class="list-disc pl-8">
                                 <li>
