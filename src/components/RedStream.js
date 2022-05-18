@@ -20,7 +20,7 @@ export default function RedStream() {
         <>
             <div class="grid grid-cols-1 lg:grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
                 <div class="flex lg:hidden">
-                    <img class="object-cover w-[100%]" src={RedstreamPic}></img>
+                    <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
                 </div>
                 <div class="pl-2">
                     <h1 className="text-xl font-bold">RedStream</h1>
@@ -43,7 +43,7 @@ export default function RedStream() {
                     <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Github")}}>Github</button>
                 </div>
                 <div class="hidden lg:flex">
-                    <img class="object-cover w-[100%]" src={RedstreamPic}></img>
+                    <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
                 </div>
             </div>
         </>
