@@ -3,7 +3,10 @@ import SelfRemindPic from "../img/selfremind.png"
 export default function SelfRemind() {
     return (
         <>
-            <div class="grid grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+            <div class="grid grid-cols-1 lg:grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
+                <div class="flex lg:hidden">
+                    <img class="object-cover w-[100%]" src={SelfRemindPic}></img>
+                </div>
                 <div class="pl-2">
                     <h1 className="text-2xl font-bold">SelfRemind</h1>
                     <p>
@@ -24,7 +27,7 @@ export default function SelfRemind() {
                     </p>
                     <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4">Github</button>
                 </div>
-                <div>
+                <div class="hidden lg:flex">
                     <img class="object-cover w-[100%]" src={SelfRemindPic}></img>
                 </div>
             </div>
