@@ -1,6 +1,24 @@
 import SansPic from "../img/sans.png"
 
 export default function AttendanceSystem() {
+
+    const ButtonOnClickHandler = (target = "") => {
+        var path = "";
+
+        switch (target) {
+            case "Express":
+                path = "https://github.com/redfrogsss/attendance-system-nodejs";
+                break;
+            case "Java":
+                path = "https://github.com/redfrogsss/attendance-system-java";
+                break;
+            default:
+                break;
+        }
+        
+        window.location.href = path;
+    }
+
     return (
         <>
             <div class="grid grid-cols-1 lg:grid-cols-2 bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl">
@@ -25,8 +43,8 @@ export default function AttendanceSystem() {
                             </ul>
                         </text>
                     </p>
-                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4">Github</button>
-                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4">Github</button>
+                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Express")}}>Github for ExpressJS version</button>
+                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Java")}}>Github for Java version</button>
                 </div>
                 <div class="hidden lg:flex">
                     <img class="object-cover w-[100%]" src={SansPic}></img>
