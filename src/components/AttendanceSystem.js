@@ -48,7 +48,7 @@ export default function AttendanceSystem() {
                             <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Express") }}>Github for ExpressJS version</button>
                         </span>
                         <span>
-                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-2" onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</button>
+                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</button>
                         </span>
                     </span>
                 </div>
