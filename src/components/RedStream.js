@@ -23,7 +23,7 @@ export default function RedStream() {
                     <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
                 </div>
                 <div class="pl-2">
-                    <h1 className="text-xl font-bold">RedStream</h1>
+                    <h1 className="text-2xl font-bold">RedStream</h1>
                     <p>
                         <text className="text-lg pt-4 pr-4">
                             a Movie Streaming Website built with ReactJS, MaterialUI, ExpressJS, Firebase and FFmpeg.
