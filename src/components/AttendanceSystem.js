@@ -15,7 +15,7 @@ export default function AttendanceSystem() {
             default:
                 break;
         }
-        
+
         window.location.href = path;
     }
 
@@ -43,8 +43,14 @@ export default function AttendanceSystem() {
                             </ul>
                         </text>
                     </p>
-                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Express")}}>Github for ExpressJS version</button>
-                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Java")}}>Github for Java version</button>
+                    <span class="inline-grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
+                        <span>
+                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Express") }}>Github for ExpressJS version</button>
+                        </span>
+                        <span>
+                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-2" onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</button>
+                        </span>
+                    </span>
                 </div>
                 <div class="hidden lg:flex">
                     <img class="object-cover w-[100%]" src={SansPic} alt="Screenshot of Student Attendance Management System"></img>
