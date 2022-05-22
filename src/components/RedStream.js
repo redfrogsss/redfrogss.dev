@@ -6,6 +6,7 @@ import RedstreamPic4 from "../img/redstream4.png"
 import RedstreamPic5 from "../img/redstream5.png"
 import RedstreamPic6 from "../img/redstream6.png"
 import GithubButton from "./GithubButton";
+import { isSafari } from 'react-device-detect';
 
 export default function RedStream() {
 
@@ -21,6 +22,14 @@ export default function RedStream() {
         }
 
         window.location.href = path;
+    }
+
+    const ProjectImage = () => {
+        if (isSafari) {
+            return <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
+        } else {
+            return <Carousel />
+        }
     }
 
     const Carousel = () => {
@@ -116,7 +125,8 @@ export default function RedStream() {
                 </div>
                 <div class="hidden lg:flex px-8">
                     {/* <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img> */}
-                    <Carousel />
+                    {/* <Carousel /> */}
+                    <ProjectImage />
                 </div>
             </div>
         </>
