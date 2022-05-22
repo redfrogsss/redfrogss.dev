@@ -4,7 +4,7 @@ import AttendanceSystem from "./AttendanceSystem";
 
 export default function Projects() {
     return (
-        <div className="px-4 md:px-16 lg:px-32 content-center">
+        <div className="px-4 md:px-16 content-center">
             <h1 className="text-5xl font-bold font-mono py-16">Projects</h1>
             <ol class="relative border-l border-gray-200 dark:border-gray-700">
                 <li class="mb-10 ml-2.5 md:ml-4">
