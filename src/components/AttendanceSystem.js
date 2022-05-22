@@ -27,11 +27,11 @@ export default function AttendanceSystem() {
                     <img class="object-cover w-[100%]" src={SansPic} alt="Screenshot of Student Attendance Management System"></img>
                 </div>
                 <div class="pl-2">
-                    <h1 className="text-2xl font-bold">Students Attendance System</h1>
+                    <h1 className="text-2xl font-bold font-mono">Students Attendance System</h1>
                     <p>
-                        <text className="text-lg pt-4 pr-4">
+                        <text className="text-lg pt-4 pr-4 font-mono">
                             a Student Attendance Management System built with ExpressJS / Java GlassFish, Bootstrap, JQuery and MySQL.
-                            <ul class="list-disc pl-8">
+                            <ul class="list-disc pl-8 font-mono">
                                 <li>
                                     Easy Attendance Management
                                 </li>

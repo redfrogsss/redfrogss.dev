@@ -24,9 +24,9 @@ export default function SelfRemind() {
                     <img class="object-cover w-[100%]" src={SelfRemindPic} alt="Screenshot of SelfRemind"></img>
                 </div>
                 <div class="pl-2">
-                    <h1 className="text-2xl font-bold">SelfRemind</h1>
+                    <h1 className="text-2xl font-bold font-mono">SelfRemind</h1>
                     <p>
-                        <text className="text-lg pt-4">
+                        <text className="text-lg pt-4 font-mono">
                             a selfhosted To-do List Manager built with Next.js, Chakra-UI and MySQL.
                             <ul class="list-disc pl-8">
                                 <li>
