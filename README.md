@@ -16,3 +16,14 @@ yarn start
 ```
 yarn deploy
 ```
+
+## Learn More
+
+This website is built by [Jacky Fan](https://github.com/redfrogsss).
+
+The following tech is used in this project.
+- [ReactJS](https://reactjs.org/) - the framework of this project.
+- [tailwindcss](https://tailwindcss.com/) - the UI framework of this project.
+- [Flowbite](https://flowbite.com/) - the UI components of this project.
+
+You can check out [my dirty code in Github](https://github.com/redfrogsss/redfrogss.dev).
