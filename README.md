@@ -5,7 +5,7 @@
 ![Screenshots of My Personal Website](./readme-img/01.png "Screenshots of My Personal Website")
 ![Screenshots of My Personal Website](./readme-img/02.png "Screenshots of My Personal Website")
 
-## Getting Started with `yarn`
+## Get Started with `yarn`
 - To start the development build, do this in your terminal:
 ```
 yarn;
