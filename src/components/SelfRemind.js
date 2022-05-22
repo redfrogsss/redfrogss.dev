@@ -1,6 +1,7 @@
 import SelfRemindPic1 from "../img/selfremind1.png"
 import SelfRemindPic2 from "../img/selfremind2.png"
 import GithubButton from "./GithubButton";
+import { isSafari } from 'react-device-detect';
 
 export default function SelfRemind() {
 
@@ -18,7 +19,16 @@ export default function SelfRemind() {
         window.location.href = path;
     }
 
+    const ProjectImage = () => {
+        if (isSafari) {
+            return <img class="object-cover w-[100%]" src={SelfRemindPic2} alt="Screenshot of SelfRemind"></img>
+        } else {
+            return <Carousel />
+        }
+    }
+
     const Carousel = () => {
+        // This component does not support safari
         return (
             <div className="w-[100%]">
                 <div id="default-carousel" class="relative" data-carousel="static">
@@ -93,7 +103,8 @@ export default function SelfRemind() {
                 </div>
                 <div class="hidden lg:flex px-8">
                     {/* <img class="object-cover w-[100%]" src={SelfRemindPic} alt="Screenshot of SelfRemind"></img> */}
-                    <Carousel />
+                    {/* <Carousel /> */}
+                    <ProjectImage />
                 </div>
             </div>
         </>
