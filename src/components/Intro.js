@@ -1,6 +1,6 @@
 import DanceCanvas from './DanceCanvas';
 import { SocialIcon } from 'react-social-icons';
-import FadeIn from 'react-fade-in';
+// import FadeIn from 'react-fade-in';
 
 export default function Intro() {
     return (
