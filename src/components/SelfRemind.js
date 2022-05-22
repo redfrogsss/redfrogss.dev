@@ -25,6 +25,15 @@ export default function SelfRemind() {
                 </div>
                 <div class="pl-2">
                     <h1 className="text-2xl font-bold font-mono">SelfRemind</h1>
+                    <div className="my-2.5">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium font-mono text-blue-500 dark:text-white">Development Progress</span>
+                            <span class="text-sm font-medium font-mono text-blue-500 dark:text-white">30%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                            <div class="bg-blue-600 h-2.5 rounded-full w-[30%]"></div>
+                        </div>
+                    </div>
                     <p>
                         <text className="text-lg pt-4 font-mono">
                             a selfhosted To-do List Manager built with Next.js, Chakra-UI and MySQL.
@@ -41,7 +50,7 @@ export default function SelfRemind() {
                             </ul>
                         </text>
                     </p>
-                    <GithubButton onClick={()=>{ButtonOnClickHandler("Github")}}>Github Repo</GithubButton>
+                    <GithubButton onClick={() => { ButtonOnClickHandler("Github") }}>Github Repo</GithubButton>
                 </div>
                 <div class="hidden lg:flex">
                     <img class="object-cover w-[100%]" src={SelfRemindPic} alt="Screenshot of SelfRemind"></img>
