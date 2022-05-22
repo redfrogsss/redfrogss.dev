@@ -25,5 +25,10 @@ The following tech is used in this project.
 - [ReactJS](https://reactjs.org/) - the framework of this project.
 - [tailwindcss](https://tailwindcss.com/) - the UI framework of this project.
 - [Flowbite](https://flowbite.com/) - the UI components of this project.
+- [Three.js](https://threejs.org/) - the 3D model renderer of this project.
+- [Ready Player Me](https://readyplayer.me/) - the 3D model renderer of this project.
+
+The following tutorial is used in this project.
+- [How to Use Three.js And React to Render a 3D Model of Your Self](https://dev.to/nourdinedev/how-to-use-threejs-and-react-to-render-a-3d-model-of-your-self-4kkf)
 
 You can check out [my dirty code in Github](https://github.com/redfrogsss/redfrogss.dev).
