@@ -1,4 +1,5 @@
 import SansPic from "../img/sans.png"
+import GithubButton from "./GithubButton";
 
 export default function AttendanceSystem() {
 
@@ -43,12 +44,14 @@ export default function AttendanceSystem() {
                             </ul>
                         </text>
                     </p>
-                    <span class="inline-grid grid-cols-1 lg:grid-cols-2 lg:gap-4">
+                    <span class="inline-grid grid-cols-1 lg:grid-cols-2 lg:gap-4 w-[100%] lg:w-auto">
                         <span>
-                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Express") }}>Github for ExpressJS version</button>
+                            {/* <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Express") }}>Github for ExpressJS version</button> */}
+                            <GithubButton onClick={() => { ButtonOnClickHandler("Express") }}>Github for ExpressJS version</GithubButton>
                         </span>
                         <span>
-                            <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</button>
+                            {/* <button type="button" class="rounded-full bg-blue-600 px-4 py-4 mb-2" onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</button> */}
+                            <GithubButton onClick={() => { ButtonOnClickHandler("Java") }}>Github for Java version</GithubButton>
                         </span>
                     </span>
                 </div>
