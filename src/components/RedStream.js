@@ -1,4 +1,5 @@
 import RedstreamPic from "../img/redstream.png"
+import GithubButton from "./GithubButton";
 
 export default function RedStream() {
 
@@ -22,11 +23,11 @@ export default function RedStream() {
                 <div class="flex lg:hidden">
                     <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
                 </div>
-                <div class="pl-2">
+                <div class="pl-2 text-lg">
                     <h1 className="text-2xl font-bold">RedStream</h1>
-                    <p>
-                        <text className="text-lg pt-4 pr-4">
+                        <text className="pt-4 pr-4">
                             a Movie Streaming Website built with ReactJS, MaterialUI, ExpressJS, Firebase and FFmpeg.
+                        </text>
                             <ul class="list-disc pl-8">
                                 <li>
                                     Movie Streaming
@@ -38,9 +39,7 @@ export default function RedStream() {
                                     Comment Section
                                 </li>
                             </ul>
-                        </text>
-                    </p>
-                    <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={()=>{ButtonOnClickHandler("Github")}}>Github</button>
+                    <GithubButton onClick={()=>{ButtonOnClickHandler("Github")}}>Github</GithubButton>
                 </div>
                 <div class="hidden lg:flex">
                     <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img>
