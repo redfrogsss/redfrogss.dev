@@ -6,13 +6,13 @@
 ![Screenshots of My Personal Website](./readme-img/02.png "Screenshots of My Personal Website")
 
 ## Getting Started with `yarn`
-- To start the development build, do this:
+- To start the development build, do this in your terminal:
 ```
 yarn;
 yarn start
 ```
 
-- To deploy the production build, do this:
+- To deploy the production build, do this in your terminal:
 ```
 yarn deploy
 ```
