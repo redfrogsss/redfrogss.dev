@@ -107,11 +107,11 @@ export default function AttendanceSystem() {
 
     return (
         <>
-            <div class="grid grid-cols-1 lg:grid-cols-2 p-6 bg-slate-800 rounded-lg border border-slate-400 shadow-md">
+            <div class="grid grid-cols-1 lg:grid-cols-2 p-2.5 md:p-6 bg-slate-800 rounded-lg border border-slate-400 shadow-md">
                 <div class="flex lg:hidden">
                     <img class="object-cover w-[100%]" src={SamsPic} alt="Screenshot of Student Attendance Management System"></img>
                 </div>
-                <div class="pl-2 px-8">
+                <div class="md:pl-2 px-0 md:px-8">
                     <h1 className="text-2xl font-bold font-mono">Students Attendance System</h1>
                     <div className="my-2.5">
                         <div class="flex justify-between mb-1">
