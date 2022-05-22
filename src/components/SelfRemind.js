@@ -41,7 +41,6 @@ export default function SelfRemind() {
                             </ul>
                         </text>
                     </p>
-                    {/* <button type="button" class="rounded-full bg-blue-600 px-4 py-4 my-4" onClick={() => { ButtonOnClickHandler("Github") }}>Github</button> */}
                     <GithubButton onClick={()=>{ButtonOnClickHandler("Github")}}>Github Repo</GithubButton>
                 </div>
                 <div class="hidden lg:flex">
