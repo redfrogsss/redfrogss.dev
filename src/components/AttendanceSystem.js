@@ -8,6 +8,7 @@ import SamsPic6 from "../img/sams6.png"
 import SamsPic7 from "../img/sams7.png"
 import SamsPic8 from "../img/sams8.png"
 import GithubButton from "./GithubButton";
+import { isSafari } from 'react-device-detect';
 
 export default function AttendanceSystem() {
 
@@ -26,6 +27,14 @@ export default function AttendanceSystem() {
         }
 
         window.location.href = path;
+    }
+
+    const ProjectImage = () => {
+        if (isSafari) {
+            return <img class="object-cover w-[100%]" src={SamsPic} alt="Screenshot of Student Attendance Management System"></img>
+        } else {
+            return <Carousel />
+        }
     }
 
     const Carousel = () => {
@@ -142,7 +151,8 @@ export default function AttendanceSystem() {
                 </div>
                 <div class="hidden lg:flex px-8">
                     {/* <img class="object-cover w-[100%]" src={SamsPic} alt="Screenshot of Student Attendance Management System"></img> */}
-                    <Carousel />
+                    {/* <Carousel /> */}
+                    <ProjectImage />
                 </div>
             </div>
         </>
