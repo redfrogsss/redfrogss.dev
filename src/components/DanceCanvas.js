@@ -18,7 +18,7 @@ export default function DanceCanvas() {
                 <ambientLight intensity={1.25} />
                 <ambientLight intensity={0.1} />
                 <directionalLight intensity={0.4} />
-                <Suspense fallback={<span class="text-white">loading...</span>}>
+                <Suspense fallback={null}>
                     <Dance position={[0.025, -0.9, 0]} />
                 </Suspense>
                 {/* <OrbitControls /> */}
