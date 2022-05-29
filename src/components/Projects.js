@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 export default function Projects() {
     return (
         <div className="px-4 md:px-16 content-center">
-            <h1 className="text-5xl font-bold font-mono py-16">Projects</h1>
+            <h1 className="text-5xl font-bold font-mono py-16">My Projects</h1>
             <ol class="relative border-l border-gray-200 dark:border-gray-700">
                 <li class="mb-10 ml-2.5 md:ml-4">
                     <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
