@@ -8,7 +8,7 @@ import SamsPic6 from "../img/sams6.png"
 import SamsPic7 from "../img/sams7.png"
 import SamsPic8 from "../img/sams8.png"
 import GithubButton from "./GithubButton";
-import { isSafari } from 'react-device-detect';
+import { isChrome, isSafari } from 'react-device-detect';
 
 export default function AttendanceSystem() {
 
@@ -30,7 +30,7 @@ export default function AttendanceSystem() {
     }
 
     const ProjectImage = () => {
-        if (isSafari) {
+        if (isSafari || isChrome) {
             return <img class="object-cover w-[100%]" src={SamsPic} alt="Screenshot of Student Attendance Management System"></img>
         } else {
             return <Carousel />
