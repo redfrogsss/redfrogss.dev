@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8e835847.css",
-    "main.js": "/static/js/main.c42658fc.js",
+    "main.js": "/static/js/main.0fce4929.js",
     "static/media/dance.glb": "/static/media/dance.a936e6ed18c59a446faa.glb",
     "static/media/sams1.png": "/static/media/sams1.878678cbdc7902b91647.png",
     "static/media/redstream2.png": "/static/media/redstream2.c8548e1c0e25193bc670.png",
@@ -17,16 +17,18 @@
     "static/media/sams.png": "/static/media/sams.e5e6ae01122d109e2c7d.png",
     "static/media/sams4.png": "/static/media/sams4.e5e6ae01122d109e2c7d.png",
     "static/media/redstream1.png": "/static/media/redstream1.601322b703f8d8826f9d.png",
+    "static/media/personalWebsite2.png": "/static/media/personalWebsite2.8cf416c153bed2e76c3d.png",
     "static/media/redstream4.png": "/static/media/redstream4.08f5aaf9f939055baf4e.png",
+    "static/media/personalWebsite1.png": "/static/media/personalWebsite1.abe77c974b217d929b96.png",
     "static/media/redstream5.png": "/static/media/redstream5.fc31a70ea39d0f80172e.png",
     "static/media/selfremind2.png": "/static/media/selfremind2.b7e5c349830098201a75.png",
     "static/media/selfremind1.png": "/static/media/selfremind1.005ff0649510eb14d15f.png",
     "index.html": "/index.html",
     "main.8e835847.css.map": "/static/css/main.8e835847.css.map",
-    "main.c42658fc.js.map": "/static/js/main.c42658fc.js.map"
+    "main.0fce4929.js.map": "/static/js/main.0fce4929.js.map"
   },
   "entrypoints": [
     "static/css/main.8e835847.css",
-    "static/js/main.c42658fc.js"
+    "static/js/main.0fce4929.js"
   ]
 }
