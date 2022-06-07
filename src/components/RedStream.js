@@ -124,8 +124,6 @@ export default function RedStream() {
                     <GithubButton onClick={() => { ButtonOnClickHandler("Github") }}>Github</GithubButton>
                 </div>
                 <div class="hidden lg:flex px-8">
-                    {/* <img class="object-cover w-[100%]" src={RedstreamPic} alt="Screenshot of RedStream"></img> */}
-                    {/* <Carousel /> */}
                     <ProjectImage />
                 </div>
             </div>

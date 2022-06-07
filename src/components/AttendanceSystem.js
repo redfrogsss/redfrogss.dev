@@ -150,8 +150,6 @@ export default function AttendanceSystem() {
                     </span>
                 </div>
                 <div class="hidden lg:flex px-8">
-                    {/* <img class="object-cover w-[100%]" src={SamsPic} alt="Screenshot of Student Attendance Management System"></img> */}
-                    {/* <Carousel /> */}
                     <ProjectImage />
                 </div>
             </div>

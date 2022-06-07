@@ -102,8 +102,6 @@ export default function SelfRemind() {
                     <GithubButton onClick={() => { ButtonOnClickHandler("Github") }}>Github Repo</GithubButton>
                 </div>
                 <div class="hidden lg:flex px-8">
-                    {/* <img class="object-cover w-[100%]" src={SelfRemindPic} alt="Screenshot of SelfRemind"></img> */}
-                    {/* <Carousel /> */}
                     <ProjectImage />
                 </div>
             </div>
