@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/redfrogsss/redfrogss.dev/badge)](https://www.codefactor.io/repository/github/redfrogsss/redfrogss.dev)
+
 # redfrogss.dev - My Personal Website
 [redfrogss.dev](https://redfrogss.dev) - My Personal Website built with [ReactJS](https://reactjs.org/), [TailWindCSS](https://tailwindcss.com/) and [Three.JS](https://threejs.org/).
 
