@@ -20,8 +20,8 @@ function App() {
     <div className="App">
       {showLoading ? <Loading delayMs={loadingDelayMs} /> : <></>}
       <Intro />
-      <Projects />
-      <Footer />
+      {showLoading ? <></> : <Projects />}
+      {showLoading ? <></> : <Footer />}
     </div >
   );
 }
