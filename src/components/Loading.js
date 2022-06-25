@@ -7,7 +7,7 @@ const Loading = () => {
         visible: { opacity: 1 },
     }
 
-    const delay = 5;
+    const delay = 3;
 
     return (
         <div className="fixed z-101 w-screen h-screen flex justify-center items-center bg-gray-900">
