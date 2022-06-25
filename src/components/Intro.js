@@ -46,6 +46,7 @@ export default function Intro() {
                     animate="visible"
                     variants={variants}
                     transition={{ delay: delay }}
+                    layout="position"
                 >
                     <center>
                         <h1 className="text-5xl font-bold font-mono">

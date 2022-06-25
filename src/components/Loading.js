@@ -10,7 +10,7 @@ const Loading = () => {
     const delay = 3;
 
     return (
-        <div className="fixed z-101 w-screen h-screen flex justify-center items-center bg-gray-900">
+        <div className="fixed w-screen h-screen flex justify-center items-center bg-gray-900">
             <motion.div
                 initial="visible"
                 animate="hidden"
