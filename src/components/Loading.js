@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
-const Loading = () => {
+const Loading = ({delayMs = 5000}) => {
 
     const variants = {
         hidden: { opacity: 0 },
         visible: { opacity: 1 },
     }
 
-    const delay = 3;
+    const delay = delayMs / 1000;
 
     return (
         <div className="fixed w-screen h-screen flex justify-center items-center bg-gray-900">

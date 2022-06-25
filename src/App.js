@@ -8,15 +8,17 @@ function App() {
 
   const [showLoading, setShowLoading] = useState(true);
 
+  const loadingDelayMs = 5000;
+
   useEffect(() => {
     setTimeout(() => {
       setShowLoading(false);
-    }, 5000);
+    }, loadingDelayMs);
   }, []);
 
   return (
     <div className="App">
-      {showLoading ? <Loading /> : <></>}
+      {showLoading ? <Loading delayMs={loadingDelayMs} /> : <></>}
       <Intro />
       <Projects />
       <Footer />
