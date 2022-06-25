@@ -2,11 +2,13 @@ import { motion } from "framer-motion";
 
 const Loading = ({ delayMs = 5000 }) => {
 
+    // varients for motion.
     const variants = {
         hidden: { opacity: 0 },
         visible: { opacity: 1 },
     }
 
+    // delay in seconds
     const delay = (delayMs / 1000) - 1;
 
     return (
