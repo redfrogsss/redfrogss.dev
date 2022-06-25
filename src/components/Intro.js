@@ -1,6 +1,6 @@
 import DanceCanvas from './DanceCanvas';
 import { SocialIcon } from 'react-social-icons';
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Intro() {
 
@@ -9,13 +9,15 @@ export default function Intro() {
         visible: { opacity: 1 },
     }
 
+    const delay = 5;
+
     return (
         <div class="grid grid-cols-1 lg:grid-cols-2 px-8 md:px-16 lg:px-32 content-center h-[100vh]">
             <motion.div
                 initial="hidden"
                 animate="visible"
                 variants={variants}
-                transition={{ delay: 1 }}
+                transition={{ delay: delay }}
             >
                 <div class="hidden lg:flex justify-center items-center h-screen">
                     <DanceCanvas />
@@ -26,7 +28,7 @@ export default function Intro() {
                     initial="hidden"
                     animate="visible"
                     variants={variants}
-                    transition={{ delay: 1 }}
+                    transition={{ delay: delay }}
                 >
                     <center>
                         <h1 className="text-5xl font-bold font-mono">
