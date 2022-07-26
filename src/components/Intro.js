@@ -10,21 +10,17 @@ export default function Intro() {
     }
 
     const delay = 5;
-    
+
     const BlogButton = () => {
 
-        const onClickHandler = () => {
-            window.location = "https://blog.redfrogss.dev";
-        }
-
         return (
-            <button
+            <a
+                href="https://blog.redfrogss.dev"
                 type="button"
                 class="px-5 py-5 w-[100%] font-mono text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-full text-sm dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-                onClick={onClickHandler}
-                >
+            >
                 Visit my blog
-            </button>
+            </a>
         );
     }
 
