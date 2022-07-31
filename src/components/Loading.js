@@ -19,10 +19,10 @@ const Loading = ({ delayMs = 5000 }) => {
                 variants={variants}
                 transition={{ delay: delay }}
             >
-                <div class="flex items-center justify-center space-x-2 animate-pulse">
-                    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
-                    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
-                    <div class="w-4 h-4 bg-blue-400 rounded-full"></div>
+                <div className="flex items-center justify-center space-x-2 animate-pulse">
+                    <div className="w-4 h-4 bg-blue-400 rounded-full"></div>
+                    <div className="w-4 h-4 bg-blue-400 rounded-full"></div>
+                    <div className="w-4 h-4 bg-blue-400 rounded-full"></div>
                 </div>
                 <div className="mt-2 animate-pulse font-mono">Loading...</div>
             </motion.div>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Loading from './components/Loading';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       {showLoading ? <Loading delayMs={loadingDelayMs} /> : <></>}
       <Intro />
-      {showLoading ? <></> : <Projects />}
+      {/* {showLoading ? <></> : <Projects />} */}
       {showLoading ? <></> : <Footer />}
     </div >
   );
