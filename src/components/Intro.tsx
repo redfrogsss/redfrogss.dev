@@ -17,7 +17,7 @@ export default function Intro() {
             <a
                 href="https://blog.redfrogss.dev"
                 type="button"
-                className="px-5 py-5 w-[100%] font-mono text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-full text-sm dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                className="px-5 py-5 w-[100%] font-mono text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-full text-sm dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 text-center"
             >
                 Visit my blog
             </a>
@@ -44,7 +44,7 @@ export default function Intro() {
                     transition={{ delay: delay }}
                     layout="position"
                 >
-                    <center>
+                    <div className="item-center text-center">
                         <h1 className="text-5xl font-bold font-mono">
                             Jacky FAN
                         </h1>
@@ -68,7 +68,7 @@ export default function Intro() {
                                 <BlogButton />
                             </span>
                         </span>
-                    </center>
+                    </div>
                 </motion.div>
             </div>
         </div>
