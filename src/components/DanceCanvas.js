@@ -6,7 +6,7 @@ import Dance from "./Dance";
 export default function DanceCanvas() {
 
     return (
-        <Suspense fallback={<span class="text-white">loading...</span>}>
+        <Suspense fallback={<span className="text-white">loading...</span>}>
             <Canvas
                 camera={{ position: [2, 0, 12.25], fov: 15 }}
                 style={{

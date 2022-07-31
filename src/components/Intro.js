@@ -17,7 +17,7 @@ export default function Intro() {
             <a
                 href="https://blog.redfrogss.dev"
                 type="button"
-                class="px-5 py-5 w-[100%] font-mono text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-full text-sm dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+                className="px-5 py-5 w-[100%] font-mono text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-full text-sm dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
             >
                 Visit my blog
             </a>
@@ -25,18 +25,18 @@ export default function Intro() {
     }
 
     return (
-        <div class="grid grid-cols-1 lg:grid-cols-2 px-8 md:px-16 lg:px-32 content-center h-[100vh]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 px-8 md:px-16 lg:px-32 content-center h-[100vh]">
             <motion.div
                 initial="hidden"
                 animate="visible"
                 variants={variants}
                 transition={{ delay: delay }}
             >
-                <div class="hidden lg:flex justify-center items-center h-screen">
+                <div className="hidden lg:flex justify-center items-center h-screen">
                     <DanceCanvas />
                 </div>
             </motion.div>
-            <div class="flex justify-center items-center h-screen">
+            <div className="flex justify-center items-center h-screen">
                 <motion.div
                     initial="hidden"
                     animate="visible"
@@ -51,7 +51,7 @@ export default function Intro() {
                         <p className="text-lg font-mono pt-8">
                             A PolyU student studying Computing.
                         </p>
-                        <span class="inline-grid grid-cols-3 gap-4 py-8">
+                        <span className="inline-grid grid-cols-3 gap-4 py-8">
                             <span>
                                 <SocialIcon url="https://github.com/redfrogsss" bgColor='#f3f4f6' />
                             </span>
