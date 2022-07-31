@@ -51,7 +51,7 @@ export default function Intro() {
                         <p className="text-lg font-mono pt-8">
                             A PolyU student studying Computing.
                         </p>
-                        <span className="inline-grid grid-cols-3 gap-4 py-8">
+                        <span className="inline-grid grid-cols-4 gap-4 py-8">
                             <span>
                                 <SocialIcon url="https://github.com/redfrogsss" bgColor='#f3f4f6' />
                             </span>
@@ -59,9 +59,12 @@ export default function Intro() {
                                 <SocialIcon url="https://twitter.com/redfrogss" />
                             </span>
                             <span>
+                                <SocialIcon url="https://www.linkedin.com/in/jacky-fan-682516190/" />
+                            </span>
+                            <span>
                                 <SocialIcon url="mailto:hello@redfrogss.dev" bgColor='#f3f4f6' />
                             </span>
-                            <span className="col-span-3">
+                            <span className="col-span-4">
                                 <BlogButton />
                             </span>
                         </span>
