@@ -1,17 +1,22 @@
-import DanceCanvas from './DanceCanvas';
-import { SocialIcon } from 'react-social-icons';
+import DanceCanvas from "./DanceCanvas";
+import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import { isIPad13 } from "react-device-detect";
 
 export default function Intro() {
-
     const variants = {
         hidden: { opacity: 0 },
         visible: { opacity: 1 },
-    }
+    };
 
     const delay = 5;
 
     const BlogButton = () => {
+        // return empty if it is ipad
+        // ipad safari cannot display this button correctly
+        if (isIPad13) {
+            return <></>;
+        }
 
         return (
             <a
@@ -22,7 +27,7 @@ export default function Intro() {
                 Visit my blog
             </a>
         );
-    }
+    };
 
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 px-8 md:px-16 lg:px-32 content-center h-[100vh]">
@@ -53,7 +58,10 @@ export default function Intro() {
                         </p>
                         <span className="inline-grid grid-cols-4 gap-4 py-8">
                             <span>
-                                <SocialIcon url="https://github.com/redfrogsss" bgColor='#f3f4f6' />
+                                <SocialIcon
+                                    url="https://github.com/redfrogsss"
+                                    bgColor="#f3f4f6"
+                                />
                             </span>
                             <span>
                                 <SocialIcon url="https://twitter.com/redfrogss" />
@@ -62,7 +70,10 @@ export default function Intro() {
                                 <SocialIcon url="https://www.linkedin.com/in/jacky-fan-682516190/" />
                             </span>
                             <span>
-                                <SocialIcon url="mailto:hello@redfrogss.dev" bgColor='#f3f4f6' />
+                                <SocialIcon
+                                    url="mailto:hello@redfrogss.dev"
+                                    bgColor="#f3f4f6"
+                                />
                             </span>
                             <span className="col-span-4">
                                 <BlogButton />
